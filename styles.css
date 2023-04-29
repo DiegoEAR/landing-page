@@ -1,0 +1,43 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sigmar', cursive;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    background: #ADA9B7;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0px 35px 0px 35px;
+}
+
+.logo {
+    height: 100%;
+}
+
+.navBar, 
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-list {
+    gap: 40px;
+}
+
+.navbar-list a {
+    color: rgb(27, 25, 25);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+
+
