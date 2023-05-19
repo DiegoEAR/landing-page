@@ -9,12 +9,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
 </head>
     <body>
         <header>
             <img src="./img/LogoPanda.png" alt="Logo Panda" class="logo"/>
 
+
+
             <nav class="navBar">
+
+            <label for="menu-toggle" class="menu-label">
+                <img src="./img/IconoMenu.png" alt="Icono de Menu" class="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle">
+
                 <ul class="navbar-list">
                     <li><a href="./index.html">Inicio</a></li>
                     <li><a href="./servicios.html">Servicios</a></li>
@@ -26,6 +35,8 @@
         </header>
 
         <main>
+                                <!-- HERO -->
+
             <section id="hero">
                 <div class="hero-info">
                     <h1>Creamos tu espacio en la web.</h1>
@@ -35,13 +46,106 @@
                         <a href="#">APRENDÉ MÁS</a>
                     </div>
                 </div>
-                <img src="./img/Panda.png" alt="Imagen Panda">
+                <img src="./img/imgHero.jpg" alt="Imagen Panda">
             </section>
+
+                                <!-- ABOUT -->
 
             <section id="about">
                 <p>Ofrecemos soluciones digitales para impulsar tu presencia en línea. Ya sea que necesites una página web personalizada con o sin editor por parte del usuario, una tienda en línea, un blog, o tu portfolio. Nuestro equipo de expertos se encarga de brindarte una solución que se adapte a tus necesidades y objetivos.</p>
             </section>
+
+                                <!-- CARDS -->
+
+            <section id="cards">
+                <div class="cards-text">
+                    <h2>¿Porque elegir Panda Design?</h2>
+                    <p>La evidencia muestra que el uso del diseño mejora el desempeño del negocio. Las empresas que infravaloran la importancia del diseño pueden estar perdiendo oportunidades vitales.</p>
+                </div>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./img/ventas.png" alt="Icono 1">
+                        <h3>Ventas</h3>
+                        <p>Aumento de ventas en tus productos o servicios.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/posicionamiento.png" alt="Icono 2">
+                        <h3>Posicionamiento</h3>
+                        <p>Posición de mercado altamente mejorada con respecto a tus competidores.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/identidad.png" alt="Icono 3">
+                        <h3>Identidad</h3>
+                        <p>Una identidad más fuerte para tu negocio o proyecto.</p>
+                    </div>
+                </div>
+            </section>
+
+                                <!-- CONTACTO -->
+
+            <section id="contact">
+                <div class="contact-container">
+                    <h3>Contact Us</h3>
+
+                    <div class="contact-card-container">
+                        <div class="contact-card">
+                            <h4>Valentina Laverde</h4>
+                            <div class="line-container">
+                                <div class="contact-line">
+                                    <img src="./img/gps.png" alt="GPS">
+                                    <p>Calle Falsa 123</p>
+                                </div>
+                                <div class="contact-line">
+                                    <img src="./img/mail.png" alt="Mail">
+                                    <p>mail@mail.com</p>
+                                </div>
+                                <div class="contact-line">
+                                    <img src="./img/telefono.png" alt="Telefono">
+                                    <p>011 1234567891</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <h4>Fernando Pérez</h4>
+                            <div class="line-container">
+                                <div class="contact-line">
+                                    <img src="./img/gps.png" alt="GPS" class="img-line">
+                                    <p>Calle Falsa 123</p>
+                                </div>
+                                <div class="contact-line">
+                                    <img src="./img/mail.png" alt="Mail" class="img-line">
+                                    <p>mail@mail.com</p>
+                                </div>
+                                <div class="contact-line">
+                                    <img src="./img/telefono.png" alt="Telefono" class="img-line">
+                                    <p>011 1234567891</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="redes">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="./img/faebook.png" alt="Logo Facebook">
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="./img/instagram.png" alt="Instagram">
+                        </a>
+                        <a href="https://twitter.com/" target="_blank">
+                            <img src="./img/twitter.png" alt="Logo Twitter">
+                        </a>
+                    </div>
+                </div>
+                <img src="./img/map.png" alt="Mapa" class="map">
+            </section>
         </main>
 
+                                <!-- FOOTER -->
+
+            <footer>
+                <img src="./img/LogoPanda.png" alt="Logo Panda">
+                <h2>Panda Design</h2>
+            </footer>
     </body>
 </html>
